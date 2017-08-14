@@ -1,0 +1,25 @@
+{
+  "name": "arithmatic",
+  "version": "0.1.0",
+  "description": "basic arithmatic and algebra",
+  "main": "build/index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PROB8/npm-gitonga.git"
+  },
+  "keywords": [
+    "add",
+    "subtract",
+    "multiply",
+    "divide"
+  ],
+  "author": "J Naeem Gitonga <blackb8r@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PROB8/npm-gitonga/issues"
+  },
+  "homepage": "https://github.com/PROB8/npm-gitonga#readme"
+}
