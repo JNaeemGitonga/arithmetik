@@ -1,6 +1,6 @@
 {
   "name": "arithmetik",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "basic arithmetic and algebra methods",
   "main": "build/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "keywords": [
     "add",
-    "subtract",
+    "average",
     "multiply",
     "Pythagorean Theorem"
   
