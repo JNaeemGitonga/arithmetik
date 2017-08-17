@@ -11,7 +11,7 @@ $ npm install arithmetik --save
 ```  
 
 ```javascript
-const arithmetik = require('arithmetik')
+const { average, pronumeral, multiply, addition } = require('arithmetik')
 ```
 
 ### 2. Four methods.    
