@@ -1,7 +1,7 @@
 # Arithmetik
 
 ### About
-#### This is one of my first contributions to the opensource community that I have undertaken to learn how to create an NPM package. It is experimental and is used to build skills in learning a new technology. This package will allow users to perform basic arithmatic and algebra processes with minimal code. ENJOY!
+#### This is one of my first contributions to the open source community that I have undertaken to learn how to create an NPM package. It is experimental and is used to build skills in learning a new technology. This package will allow users to perform basic arithmatic and algebra processes with minimal code. ENJOY!
 
 
 
