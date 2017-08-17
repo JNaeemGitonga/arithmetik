@@ -1,6 +1,6 @@
 {
   "name": "arithmetik",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "basic arithmetic and algebra methods",
   "main": "build/index.js",
   "scripts": {
@@ -22,7 +22,8 @@
     "add",
     "subtract",
     "multiply",
-    "divide"
+    "Pythagorean Theorem"
+  
   ],
   "author": "J Naeem Gitonga <blackb8r@gmail.com>",
   "license": "MIT",
