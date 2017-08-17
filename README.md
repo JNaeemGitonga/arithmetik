@@ -1,11 +1,20 @@
-# Arithmetic
+# Arithmetik
 
 ### About
 #### This is one of my first contributions to the opensource community that I have undertaken to learn how to create an NPM package. It is experimental and is used to build skills in learning a new technology. This package will allow users to perform basic arithmatic and algebra processes with minimal code. ENJOY!
 
 
 
-### 1. Four methods.  
+### 1. Getting Started.
+```javascript
+$ npm install arithmetik --save
+```  
+
+```javascript
+const arithmetik = require('arithmetik')
+```
+
+### 2. Four methods.    
 
 •addition – will add all the values of an array of numbers and give you its total.  
 
@@ -38,8 +47,8 @@ pronumeral(8, undefined, 9) //==>4.12
 It makes use of Javascript’s default parameter property. Two parameters would then be entered and a third value will be produced. For it to produce the answer that is desired the user must enter the values as they would appear on their right triangle i.e., a, b, or hypotenuse 
 The numbers that are returned from the _pronumeral_ method are always rounded up to the nearest hundredth. For example if the answer is 99.123344344 the rounded answer that the client should expect is 99.12.  
 
-### 2. _isNumericArray
-This is a method that is used in the others: _addition_, _multiply_, _average_. It performs checks on arrays that would otherwise make our code non-DRY. Currently it is only used for vetting arrays, making sure that they are in fact just arrays of numbers.
+### 3. _isNumericArray
+This is a built-in method that is used by the others: _addition_, _multiply_, _average_. It performs checks on arrays that would otherwise make our code non-DRY. Currently it is only used for vetting arrays, making sure that they are in fact just arrays of numbers.
 
 ```javascript
 const _isNumericArray = (arr) => {

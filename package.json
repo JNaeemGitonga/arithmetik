@@ -1,10 +1,18 @@
 {
-  "name": "arithmatic",
-  "version": "0.1.0",
-  "description": "basic arithmatic and algebra",
+  "name": "arithmetik",
+  "version": "1.0.0",
+  "description": "basic arithmetic and algebra methods",
   "main": "build/index.js",
   "scripts": {
-    "test": ""
+    "dev": "watch \"npm run build\" src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
   },
   "repository": {
     "type": "git",
@@ -21,5 +29,11 @@
   "bugs": {
     "url": "https://github.com/PROB8/npm-gitonga/issues"
   },
-  "homepage": "https://github.com/PROB8/npm-gitonga#readme"
+  "homepage": "https://github.com/PROB8/npm-gitonga#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^20.0.4",
+    "watch": "^1.0.2"
+  }
 }
