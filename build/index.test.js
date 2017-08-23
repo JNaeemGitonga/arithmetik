@@ -85,7 +85,7 @@ test('Throw on function in multiply', function () {
 });
 
 test('numbers produce average of', function () {
-    expect((0, _.average)([2, 5, 2, 1])).toBe(5);
+    expect((0, _.average)([2, 5, 2, 1])).toBe(2.5);
 });
 
 test('Throw on string, average', function () {

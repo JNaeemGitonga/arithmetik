@@ -43,7 +43,7 @@ export const average = arr => {
     for (let i = 0; i < arr.length; i++) {
                     num = num + arr[i]
     }
-    return num / 2     
+    return num / arr.length     
  
 }
 

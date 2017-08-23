@@ -46,7 +46,7 @@ var average = exports.average = function average(arr) {
     for (var i = 0; i < arr.length; i++) {
         num = num + arr[i];
     }
-    return num / 2;
+    return num / arr.length;
 };
 
 var pronumeral = exports.pronumeral = function pronumeral() {

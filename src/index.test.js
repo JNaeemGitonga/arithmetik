@@ -56,7 +56,7 @@ test('Throw on function in multiply', () => {
 })
 
 test('numbers produce average of', () => {
-    expect(average([2,5,2,1])).toBe(5)
+    expect(average([2,5,2,1])).toBe(2.5)
 })
 
 test('Throw on string, average', () => {
